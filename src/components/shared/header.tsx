@@ -19,10 +19,10 @@ function Header() {
           </Link>
         </div>
       <ul className='flex gap-3 items-center font-bold'>
-        <li className='text-blue-600'>Bosh sahifa</li>
-        <li className='hover:text-blue-600 transition'>Kurslar</li>
-        <li className='hover:text-blue-600 transition'>Treyding</li>
-        <li className='hover:text-blue-600 transition'>Aloqa</li>
+        <Link to={'/'} className='text-blue-600'>Bosh sahifa</Link>
+        <Link to={'/kurslar'} className='hover:text-blue-600 transition'>Kurslar</Link>
+        <Link to={'/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
+        <Link to={'/contacts'} className='hover:text-blue-600 transition'>Aloqa</Link>
       </ul>
       </div>
       <div className="flex gap-2 items-center">

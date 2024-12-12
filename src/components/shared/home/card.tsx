@@ -1,10 +1,10 @@
-import Phyton from "../imgs/phyton.png";
-import MsOffice from "../imgs/ms office.png";
-import KompyuterSavodxonligi from "../imgs/kompyuter savodxonligi.png";
-import KiberXavfsizlik from "../imgs/Kiber xavfsizlik.png";
-import WebDasturlash from "../imgs/web dasturlash.png";
-import English from "../imgs/Engish.png";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
+import Phyton from "../../imgs/phyton.png";
+import MsOffice from "../../imgs/ms office.png";
+import KompyuterSavodxonligi from "../../imgs/kompyuter savodxonligi.png";
+import KiberXavfsizlik from "../../imgs/Kiber xavfsizlik.png";
+import WebDasturlash from "../../imgs/web dasturlash.png";
+import English from "../../imgs/Engish.png";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../../ui/carousel";
 import { Link } from "react-router-dom";
 
 function Card() {

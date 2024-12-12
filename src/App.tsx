@@ -1,18 +1,17 @@
-import BigImg from "./components/shared/bigImg"
-import Card from "./components/shared/card"
-import Footer from "./components/shared/footer"
-import Hamkorlar from "./components/shared/hamkorlar"
-import Header from "./components/shared/header"
-import Platform from "./components/shared/platform"
+import Header from "./components/shared/header";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/shared/home/home";
+import Footer from "./components/shared/footer";
+import Kurslar from "./components/shared/kurslar/kurslar";
 
 function App() {
   return (
     <div>
       <Header />
-      <BigImg />
-      <Hamkorlar />
-      <Card />
-      <Platform />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/kurslar" element={<Kurslar />} />
+          </Routes>
       <Footer />
     </div>
   )

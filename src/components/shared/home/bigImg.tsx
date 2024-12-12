@@ -1,5 +1,5 @@
-import BigImg2 from "../../components/hero.png"
-import { Button } from "../ui/button"
+import BigImg2 from "../../hero.png"
+import { Button } from "../../ui/button"
 
 function BigImg() {
   return (
