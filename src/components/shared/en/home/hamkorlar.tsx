@@ -1,6 +1,6 @@
-import YoshlarIshlari from "../../imgs/YoshlarIshlari.png";
-import UzumNasiya  from "../../imgs/uzumnasiya.png";
-import { Carousel } from "../../ui/carousel";
+import YoshlarIshlari from "../../../imgs/YoshlarIshlari.png";
+import UzumNasiya  from "../../../imgs/uzumnasiya.png";
+import { Carousel } from "../../../ui/carousel";
 import Autoplay from "embla-carousel-autoplay"
 
 function Hamkorlar() {

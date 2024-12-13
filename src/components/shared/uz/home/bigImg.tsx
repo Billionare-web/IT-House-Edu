@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import BigImg2 from "../../hero.png"
+import BigImg2 from "../../../hero.png"
 
 function BigImg() {
   return (

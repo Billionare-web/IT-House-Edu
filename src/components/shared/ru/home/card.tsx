@@ -1,10 +1,10 @@
-import Phyton from "../../imgs/phyton.png";
-import MsOffice from "../../imgs/ms office.png";
-import KompyuterSavodxonligi from "../../imgs/kompyuter savodxonligi.png";
-import KiberXavfsizlik from "../../imgs/Kiber xavfsizlik.png";
-import WebDasturlash from "../../imgs/web dasturlash.png";
-import English from "../../imgs/Engish.png";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../../ui/carousel";
+import Phyton from "../../../imgs/phyton.png";
+import MsOffice from "../../../imgs/ms office.png";
+import KompyuterSavodxonligi from "../../../imgs/kompyuter savodxonligi.png";
+import KiberXavfsizlik from "../../../imgs/Kiber xavfsizlik.png";
+import WebDasturlash from "../../../imgs/web dasturlash.png";
+import English from "../../../imgs/Engish.png";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../../../ui/carousel";
 import { Link } from "react-router-dom";
 
 function Card() {
@@ -14,24 +14,24 @@ function Card() {
         <div className="flex items-center gap-28">
           <div className="column">
             <h1 className="font-bold text-3xl">
-              Mashhur Kurslarni Ko'rib Chiqing
+            Обзор популярных курсов
             </h1>
             <h4 className="font-semibold text-gray-500">
-              Hozirgi kunda talab yuqori bo'lgan IT kurslari.
+            IT-курсы, которые сегодня пользуются большим спросом.
             </h4>
           </div>
           <div className="flex">
             <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
-              Hammasi
+            Все
             </Link>
             <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
-              Eng yangi
+            самые новые
             </Link>
             <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
-              Eng past narx
+            самые низкая цена
             </Link>
             <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
-              Eng yuqori narx
+            самые высокая цена
             </Link>
           </div>
         </div>

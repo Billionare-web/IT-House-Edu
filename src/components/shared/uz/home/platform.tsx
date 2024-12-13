@@ -1,7 +1,7 @@
-import Ustozlar from "../../imgs/Ustozlar.png";
-import Mutaxassislar from "../../imgs/Mutaxassislar.png";
-import Moslashuvchan from "../../imgs/Moslashuvchan.png";
-import Sertifikat from "../../imgs/Sertifikat.png";
+import Ustozlar from "../../../imgs/Ustozlar.png";
+import Mutaxassislar from "../../../imgs/Mutaxassislar.png";
+import Moslashuvchan from "../../../imgs/Moslashuvchan.png";
+import Sertifikat from "../../../imgs/Sertifikat.png";
 
 function Platform() {
   return (
