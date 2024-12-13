@@ -60,7 +60,7 @@ function Card() {
                 so'm
               </h1>
             </div>
-          </div>
+    </div>
     </CarouselItem>
     <CarouselItem className="basis-1/2">
     <div className="border-2 rounded-2xl">

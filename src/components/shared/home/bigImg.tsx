@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom"
 import BigImg2 from "../../hero.png"
-import { Button } from "../../ui/button"
 
 function BigImg() {
   return (
@@ -9,7 +9,7 @@ function BigImg() {
         <div className="column">
           <h1 className='text-5xl font-bold'>Kelajak kasblarini <br />o`rganishni hoziroq <span className='text-blue-600'>biz <br />bilan boshlang.</span></h1>
           <h4 className='text-gray-400 mt-3'>IT sohasidagi barcha sifatli kurslar. Biz bilan IT sohasini o'rganish endi <br />yanada osonroq shunchaki boshlang.</h4>
-          <Button className='bg-secondary py-5 font-semibold mt-5 px-9 border-2 rounded-full text-foreground'>Kurslarni toping</Button>
+          <Link to={"/courses"} className='border-2 bg-secondary rounded-full py-3 px-7 '>Kurslarni toping</Link>
         </div>
         <img src={BigImg2} alt="" />
       </div>

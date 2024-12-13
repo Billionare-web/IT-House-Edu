@@ -9,7 +9,7 @@ import KompyuterSavodxonligi from "../../imgs/kompyuter savodxonligi.png";
 function Card() {
   return (
     <div>
-        <ul className="flex py-3 px-32 gap-8 bg-secondary w-full h-15 mt-20">
+        <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary to-primary h-15 mt-20">
             <Link to={"/"}>Bosh sahifa</Link>
             <li className="list-disc">Barcha Kurslar</li>
         </ul>
@@ -112,7 +112,7 @@ function Card() {
                 <h1 className="font-semibold mx-3">500,000 so'm</h1>
               </div>
             </div>
-          </div>
+        </div>
         </div>
     </div>
   )

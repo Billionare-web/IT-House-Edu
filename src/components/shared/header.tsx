@@ -20,21 +20,23 @@ function Header() {
         </div>
       <ul className='flex gap-3 items-center font-bold'>
         <Link to={'/'} className='text-blue-600'>Bosh sahifa</Link>
-        <Link to={'/kurslar'} className='hover:text-blue-600 transition'>Kurslar</Link>
-        <Link to={'/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
+        <Link to={'/courses'} className='hover:text-blue-600 transition'>Kurslar</Link>
+        <Link to={'https://ithouseonline.uz/tr/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
         <Link to={'/contacts'} className='hover:text-blue-600 transition'>Aloqa</Link>
       </ul>
       </div>
       <div className="flex gap-2 items-center">
-        <div className="bg-secondary rounded-lg p-2"><LuLanguages /></div>
-        <div className="bg-secondary rounded-lg p-2"><IoSearchOutline /></div>
-        <div className="bg-secondary rounded-lg p-2"><FiBell /></div>
-        <div className="bg-secondary rounded-lg p-2"><SlBasket /></div>
+        <Link to={'/'} className="rounded-lg p-2"><LuLanguages /></Link>
+        <Link to={'/'} className="rounded-lg p-2"><IoSearchOutline /></Link>
+        <Link to={'https://ithouseonline.uz/tr/sign-in?redirect_url=http%3A%2F%2Fithouseonline.uz%2Ftr%2Fprofile%2Fnotifications'} className="rounded-lg p-2"><FiBell /></Link>
+        <Link to={'/'} className="rounded-lg p-2"><SlBasket /></Link>
         <div><ModeToggle /></div>
-        <Button className='bg-red-500 text-white py-3 px-9 rounded-3xl'>Kirish</Button>
+        <hr className="h-full w-1 bg-black" />
+        <Button className='bg-[#E11D48] text-white py-6 px-9 rounded-3xl'>Kirish</Button>
       </div>
       </div>
     </div>
+    <hr className="mx-32" />
     </div>
   )
 }

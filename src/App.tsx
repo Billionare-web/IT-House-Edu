@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/shared/home/home";
 import Footer from "./components/shared/footer";
 import Kurslar from "./components/shared/kurslar/kurslar";
+import Contact from "./components/shared/contact/contact";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/kurslar" element={<Kurslar />} />
+            <Route path="/courses" element={<Kurslar />} />
+            <Route path="/contacts" element={<Contact />} />
           </Routes>
       <Footer />
     </div>
