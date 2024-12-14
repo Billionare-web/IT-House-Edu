@@ -31,7 +31,7 @@ function Header() {
       <ul className='flex gap-3 items-center font-bold'>
         <Link to={'/uz'} className='text-blue-600'>Bosh sahifa</Link>
         <Link to={'/uz/courses'} className='hover:text-blue-600 transition'>Kurslar</Link>
-        <Link to={'https://ithouseonline.uz/tr/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
+        <Link to={'/uz/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
         <Link to={'/uz/contacts'} className='hover:text-blue-600 transition'>Aloqa</Link>
       </ul>
       </div>
