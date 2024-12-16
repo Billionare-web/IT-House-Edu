@@ -150,6 +150,7 @@ function Card() {
             </div>
         </div>
         </div>
+        <div className="bg-[#E11D48] text-center mt-5 px-5 py-2 w-40 rounded-xl ml-[585px]"><Link to={'/uz/courses/page2'}>Next</Link></div>
     </div>
   )
 }
