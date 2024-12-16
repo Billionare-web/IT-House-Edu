@@ -16,18 +16,18 @@ function Platform() {
             </div>
             <div className="bg-secondary rounded-xl p-5">
                 <img className="ml-16" src={Mutaxassislar} alt="" />
-                <h1 className="text-center font-semibold">Doimiy o'qituvchi...</h1>
-                <h2 className="text-center">Bizning platformamiz sizga <br />o'rganish va o'sishda yordam ber...</h2>
+                <h1 className="text-center font-semibold">Kuchli mutaxasislar...</h1>
+                <h2 className="text-center">Kurs jarayonida doimiy o'qituvchi <br />nazorati.</h2>
             </div>
             <div className="bg-secondary rounded-xl p-5">
                 <img className="ml-16" src={Moslashuvchan} alt="" />
-                <h1 className="text-center font-semibold">Doimiy o'qituvchi...</h1>
-                <h2 className="text-center">Bizning platformamiz sizga <br />o'rganish va o'sishda yordam ber...</h2>
+                <h1 className="text-center font-semibold">Moslashuvchan...</h1>
+                <h2 className="text-center">Istalgan vaqtda bilim olish <br />imkoniyati</h2>
             </div>
             <div className="bg-secondary rounded-xl p-5">
                 <img className="ml-16" src={Sertifikat} alt="" />
-                <h1 className="text-center font-semibold">Doimiy o'qituvchi...</h1>
-                <h2 className="text-center">Bizning platformamiz sizga <br />o'rganish va o'sishda yordam ber...</h2>
+                <h1 className="text-center font-semibold">Sertifikate bilan...</h1>
+                <h2 className="text-center">Bizning kurslarni alo bitirgan <br />o'quvchilarni sertifikate bilan...</h2>
             </div>
         </div>
     </div>

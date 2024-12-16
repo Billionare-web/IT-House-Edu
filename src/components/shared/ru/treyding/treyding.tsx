@@ -11,7 +11,7 @@ function Treyding() {
     <div className="">
       <div className="container px-12 pt-20">
         <h1 className="mb-8 font-roboto text-3xl font-semibold">
-          Treyding Kursi :
+        Торговый курс :
         </h1>
         <div>
           <div className=" group grid grid-cols-2 gap-4">
@@ -28,31 +28,31 @@ function Treyding() {
               />
             </div>
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-xl p-12 shadow-green-500 group-hover:shadow-2xl">
-              <p className="font-space-grotesk">
-                <b className="text-xl font-medium text-green-600 grayscale  group-hover:grayscale-0">
-                  “Nur invest”
+            <p className="font-space-grotesque">
+                <b className="text-xl font-medium text-green-600 оттенки серого group-hover:grayscale-0">
+                  «Нур Инвест»
                 </b>{" "}
-                - bu halol aksiyalar bilan savdo qiluvchi treyding kompaniyasi
-                va treyding bo’yicha ta’lim beruvchi kompaniya xisoblanadi. Biz
-                savdoni{" "}
-                <span className="font-bold text-green-600 grayscale  group-hover:grayscale-0">
+                - это торговая компания, которая торгует честными акциями
+                и торговая обучающая компания. Мы
+                торговля{" "}
+                <span className="font-bold text-green-600 оттенки серого group-hover:grayscale-0">
                   {" "}
-                  Islom{" "}
+                  Ислам{" "}
                 </span>
-                moliyasiga asoslangan xolda olib boramiz, ish jarayonimizdagi
-                barcha harakatlar “Islom taraqqiyot banki qoshida ochilgan
-                AAOIFI shariatlar standarti” asosida olib boriladi. Bundan
-                tashqari{" "}
-                <b className="text-green-600 grayscale  group-hover:grayscale-0">
-                  “Nur invest”
+                Мы проведем это исходя из финансов, в нашем рабочем процессе.
+                Вся деятельность открыта при Исламском Банке Развития.
+                AAOIFI проводится на основе стандартов шариата. Из этого
+                кроме{" "}
+                <b className="text-green-600 оттенки серого group-hover:grayscale-0">
+                  «Нур Инвест»
                 </b>{" "}
-                kompaniyasi “Halol aksiyalar savdosiga asoslangan treyding”
-                bo’yicha insonlarga ta’lim berish bilan shug’ullanadi, ta’lim
-                formati onlayn va oflayn tarzda olib boriladi.
-              </p>
+                компания «Торговля, основанная на честной торговле акциями»
+                занимается обучением людей образованию
+                формате проводится онлайн и оффлайн.
+            </p>
               <a href="tel: +998917882121">
                 <button className="items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-9 rounded-md px-3 mt-2 flex gap-4 bg-green-500 text-lg grayscale hover:animate-pulse hover:bg-green-700 group-hover:grayscale-0">
-                  <span>Malumot olish</span>
+                  <span>Получить информацию</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -75,7 +75,7 @@ function Treyding() {
         </div>
       </div>
       <hr className="mx-6 mt-12" />
-      <h1 className="px-6 mt-5 text-3xl font-semibold">Sizga Yoqishi mumkin</h1>
+      <h1 className="px-6 mt-5 text-3xl font-semibold">Вам может понравиться</h1>
 <Carousel className="mt-5 px-5">
   <CarouselContent>
     <CarouselItem className="basis-1/3">

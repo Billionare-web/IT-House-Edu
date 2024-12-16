@@ -29,13 +29,14 @@ function Header() {
           </Link>
         </div>
       <ul className='flex gap-3 items-center font-bold'>
-        <Link to={'/uz'} className='text-blue-600'>Bosh sahifa</Link>
-        <Link to={'/uz/courses'} className='hover:text-blue-600 transition'>Kurslar</Link>
-        <Link to={'https://ithouseonline.uz/tr/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
-        <Link to={'/uz/contacts'} className='hover:text-blue-600 transition'>Aloqa</Link>
+        <Link to={'/en'} className='text-blue-600'>Bosh sahifa</Link>
+        <Link to={'/en/courses'} className='hover:text-blue-600 transition'>Kurslar</Link>
+        <Link to={'/en/treyding'} className='hover:text-blue-600 transition'>Treyding</Link>
+        <Link to={'/en/contacts'} className='hover:text-blue-600 transition'>Aloqa</Link>
       </ul>
       </div>
       <div className="flex gap-2 items-center">
+        <Link to={'/'} className="rounded-lg p-2"><IoSearchOutline /></Link>
 <DropdownMenu>
   <DropdownMenuTrigger><LuLanguages /></DropdownMenuTrigger>
   <DropdownMenuContent>
@@ -45,7 +46,6 @@ function Header() {
     <DropdownMenuItem><Link className="flex items-center gap-2" to={"/tr"}><img className="w-5 h-3" src={Turkiya} alt="" />Türkçe</Link></DropdownMenuItem>
   </DropdownMenuContent>
 </DropdownMenu>
-        <Link to={'/'} className="rounded-lg p-2"><IoSearchOutline /></Link>
         <Link to={'https://ithouseonline.uz/tr/sign-in?redirect_url=http%3A%2F%2Fithouseonline.uz%2Ftr%2Fprofile%2Fnotifications'} className="rounded-lg p-2"><FiBell /></Link>
         <Link to={'/'} className="rounded-lg p-2"><SlBasket /></Link>
         <div><ModeToggle /></div>

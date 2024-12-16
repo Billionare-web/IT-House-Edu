@@ -5,6 +5,13 @@ import WebDasturlash from "../../../imgs/web dasturlash.png";
 import MsOffice from "../../../imgs/ms office.png";
 import English from "../../../imgs/Engish.png";
 import KompyuterSavodxonligi from "../../../imgs/kompyuter savodxonligi.png";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { FaAngleDown } from "react-icons/fa6";
 
 function Card() {
   return (
@@ -15,9 +22,38 @@ function Card() {
         </ul>
         <h1 className="text-4xl font-semibold px-32 mt-10">Barcha Kurslar</h1>
         <p className="font-semibold mx-32">Siz o'rganish va rivojlanish uchun murakkab kurslar taklif <br />etamiz.</p>
-        <div className="flex items-center mt-10 justify-between px-32">
+        <div className="flex items-center justify-between mt-10 px-32">
         <h1>Ko'rsatilmoqda <span className="font-semibold">8</span> jami natijalar</h1>
+        <div className="flex gap-2 items-center">
         <h1>Tartiblash Bo'yicha:</h1>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="border border-input bg-background py-2 px-3 rounded-xl flex items-center gap-10">Filtr <FaAngleDown /></DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem>Hammasi</DropdownMenuItem>
+              <DropdownMenuItem>Eng yangi</DropdownMenuItem>
+              <DropdownMenuItem>Eng past narx</DropdownMenuItem>
+              <DropdownMenuItem>Eng yuqori narx</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="border border-input bg-background py-2 px-3 rounded-xl flex items-center gap-10">Daraja<FaAngleDown /></DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem>Hammasi</DropdownMenuItem>
+              <DropdownMenuItem>Boshlang'ich</DropdownMenuItem>
+              <DropdownMenuItem>O'rta</DropdownMenuItem>
+              <DropdownMenuItem>Daraja</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="border border-input bg-background py-2 px-3 rounded-xl flex items-center gap-10">Til<FaAngleDown /></DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem>English</DropdownMenuItem>
+              <DropdownMenuItem>Uzbek</DropdownMenuItem>
+              <DropdownMenuItem>Russian</DropdownMenuItem>
+              <DropdownMenuItem>Turkish</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
         </div>
         <hr className="mx-32 mt-7" />
         <div className="flex gap-10 px-32 mt-3">

@@ -4,6 +4,7 @@ import KompyuterSavodxonligi from "../../../imgs/kompyuter savodxonligi.png";
 import KiberXavfsizlik from "../../../imgs/Kiber xavfsizlik.png";
 import WebDasturlash from "../../../imgs/web dasturlash.png";
 import English from "../../../imgs/Engish.png";
+import InteryerDizayn from "../../../imgs/InteryerDizayn.png";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../../../ui/carousel";
 import { Link } from "react-router-dom";
 
@@ -21,7 +22,7 @@ function Card() {
             </h4>
           </div>
           <div className="flex">
-            <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz/courses"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
               Hammasi
             </Link>
             <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
@@ -38,9 +39,26 @@ function Card() {
       </div>
 <Carousel className="mt-5">
   <CarouselContent>
+  <CarouselItem className="basis-1/2">
+      <div className="border-2 rounded-2xl">
+            <img className="relative w-full h-72 -top-1" src={InteryerDizayn} alt="" />
+            <h1 className="font-bold text-2xl px-3 mr-20 py-1">Interyer va Eksteryer dizayn</h1>
+            <hr className="my-3 mx-3" />
+            <div className="flex justify-end pb-5">
+              <h1 className="text-gray-500 text-xs font-semibold">
+                <s>
+                  2,500,000 so'm
+                </s>
+              </h1>
+              <h1 className="font-semibold px-3">
+                1,750,000 so'm
+              </h1>
+            </div>
+      </div>
+    </CarouselItem>
     <CarouselItem className="basis-1/2">
     <div className="border-2 rounded-2xl">
-            <img className="relative w-full h-72 -top-1" src={Phyton} alt="" />
+            <img className="relative w-full h-72 rounded-xl" src={Phyton} alt="" />
             <h1 className="font-bold text-3xl px-3">Phyton</h1>
             <hr className="my-3 mx-3" />
             <div className="flex justify-between">
