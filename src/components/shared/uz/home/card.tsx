@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function Card() {
   return (
-    <div className="px-32">
+    <div className="px-32 mt-3">
       <div className="flex justify-center mt-14">
         <div className="flex items-center gap-28">
           <div className="column">

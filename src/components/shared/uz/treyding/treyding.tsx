@@ -9,7 +9,7 @@ import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carouse
 function Treyding() {
   return (
     <div className="">
-      <div className="container px-12 pt-20">
+      <div className="container px-14 pt-32">
         <h1 className="mb-8 font-roboto text-3xl font-semibold">
           Treyding Kursi :
         </h1>
@@ -32,26 +32,26 @@ function Treyding() {
                 <b className="text-xl font-medium text-green-600 grayscale  group-hover:grayscale-0">
                   “Nur invest”
                 </b>{" "}
-                - bu halol aksiyalar bilan savdo qiluvchi treyding kompaniyasi
+                - bu halol aksiyalar bilan savdo qiluvchi <br />treyding kompaniyasi
                 va treyding bo’yicha ta’lim beruvchi kompaniya xisoblanadi. Biz
                 savdoni{" "}
                 <span className="font-bold text-green-600 grayscale  group-hover:grayscale-0">
                   {" "}
                   Islom{" "}
                 </span>
-                moliyasiga asoslangan xolda olib boramiz, ish jarayonimizdagi
-                barcha harakatlar “Islom taraqqiyot banki qoshida ochilgan
-                AAOIFI shariatlar standarti” asosida olib boriladi. Bundan
-                tashqari{" "}
+                moliyasiga <br />asoslangan xolda olib boramiz, ish jarayonimizdagi
+                barcha <br />harakatlar “Islom taraqqiyot banki qoshida ochilgan
+                AAOIFI <br />shariatlar standarti” asosida olib boriladi. Bundan
+                tashqari<br />{" "}
                 <b className="text-green-600 grayscale  group-hover:grayscale-0">
                   “Nur invest”
                 </b>{" "}
-                kompaniyasi “Halol aksiyalar savdosiga asoslangan treyding”
-                bo’yicha insonlarga ta’lim berish bilan shug’ullanadi, ta’lim
-                formati onlayn va oflayn tarzda olib boriladi.
+                kompaniyasi “Halol aksiyalar savdosiga <br />asoslangan treyding”
+                bo’yicha insonlarga ta’lim berish bilan <br />shug’ullanadi, ta’lim
+                formati onlayn va oflayn tarzda olib <br />boriladi.
               </p>
               <a href="tel: +998917882121">
-                <button className="items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-9 rounded-md px-3 mt-2 flex gap-4 bg-green-500 text-lg grayscale hover:animate-pulse hover:bg-green-700 group-hover:grayscale-0">
+                <button className="text-white items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-9 rounded-md px-3 mt-2 flex gap-4 bg-green-500 text-lg grayscale hover:animate-pulse hover:bg-green-700 group-hover:grayscale-0">
                   <span>Malumot olish</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

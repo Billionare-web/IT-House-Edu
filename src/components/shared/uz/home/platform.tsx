@@ -6,7 +6,7 @@ import Sertifikat from "../../../imgs/Sertifikat.png";
 function Platform() {
   return (
     <div>
-        <h1 className='text-center text-3xl font-semibold mt-10'>Biz bilan nimalarga ega bo'lasiz!</h1>
+        <h1 className='text-center text-3xl font-semibold mt-40'>Biz bilan nimalarga ega bo'lasiz!</h1>
         <h3 className='text-center text-gray-500'>Bizning platformamiz sizga o'rganish va o'sishda yordam bera olish uchun mo'ljallangan. Bizning maqsadimiz sizning maqsadlaringizga <br />erishishga yordam berish.</h3>
         <div className="flex justify-center gap-5 mt-7">
             <div className="bg-secondary rounded-xl p-5">

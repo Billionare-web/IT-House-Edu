@@ -6,7 +6,7 @@ import Autoplay from "embla-carousel-autoplay"
 function Hamkorlar() {
   return (
     <div>
-    <Carousel className='relative top-10 bg-secondary py-2 w-full h-20 flex px-20 justify-between'
+    <Carousel className='mt-24 bg-secondary py-2 w-full h-20 flex px-20 justify-between'
       plugins={[
         Autoplay({
           delay: 2000,

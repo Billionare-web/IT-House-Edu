@@ -88,7 +88,7 @@ function Card() {
             </div>
         </div>
         </div>
-        <div className="flex gap-10 px-32 mt-3">
+        <div className="flex gap-10 px-32 mt-10">
         <div className="border-2 rounded-2xl">
             <img className="w-full h-72" src={MsOffice} alt="" />
             <h1 className="font-bold text-3xl mx-2">Office dasturlari</h1>
@@ -120,7 +120,7 @@ function Card() {
             </div>
           </div>
         </div>
-        <div className="flex gap-10 px-32 mt-3">
+        <div className="flex gap-10 px-32 mt-10">
         <div className="border-2 rounded-2xl">
             <img className="w-full h-72" src={English} alt="" />
             <h1 className="font-bold text-3xl mx-2">English & IT</h1>
