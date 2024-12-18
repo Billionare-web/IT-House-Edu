@@ -25,13 +25,13 @@ function Card() {
             <Link to={"/uz/courses"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
               Hammasi
             </Link>
-            <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
               Eng yangi
             </Link>
-            <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
               Eng past narx
             </Link>
-            <Link to={"/"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
               Eng yuqori narx
             </Link>
           </div>

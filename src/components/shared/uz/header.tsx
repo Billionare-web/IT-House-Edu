@@ -11,11 +11,12 @@ import America from "../../imgs/america.png";
 import Uzbekistan from "../../imgs/Uzbekistan.png";
 import Russia from "../../imgs/Russia.png";
 import Turkiya from "../../imgs/Turkiya.png";
+import { Separator } from "@/components/ui/separator"
 
 function Header() {
   return (
     <div>
-    <div className='flex py-3 z-10 fixed px-[70px] -top-1 w-full backdrop-blur-2xl bg-background/70'>
+    <div className='fixed inset-0 z-40 h-20 bg-background/70 backdrop-blur-xl px-16 py-[6px]'>
       <header className="flex gap-[388px]">
       <div className='flex items-center gap-3'>
         <div className="flex gap-2 items-center">
@@ -52,8 +53,8 @@ function Header() {
         <Link to={'https://ithouseonline.uz/uz/sign-in?redirect_url=http%3A%2F%2Fithouseonline.uz%2Fuz%2Fprofile%2Fnotifications'} className='bg-[#E11D48] text-white py-3 px-9 rounded-3xl'>Kirish</Link>
       </div>
       </header>
+    <Separator className="-mx-7 mt-2" />
     </div>
-    <hr className="mx-32" />
     </div>
   )
 }
