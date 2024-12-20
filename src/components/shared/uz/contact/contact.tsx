@@ -8,7 +8,7 @@ import { IoPaperPlaneOutline } from "react-icons/io5";
 function Contact() {
   return (
     <div>
-        <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary to-primary h-15 mt-20">
+        <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary bg-[#E11D48] h-15 mt-20">
             <Link to={"/uz"}>Bosh sahifa</Link>
             <li className="list-disc">Aloqa</li>
         </ul>

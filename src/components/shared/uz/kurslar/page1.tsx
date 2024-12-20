@@ -16,7 +16,7 @@ import { FaAngleDown } from "react-icons/fa6";
 function Card() {
   return (
     <div>
-        <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary to-primary h-15 mt-20">
+        <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary h-15 mt-20 bg-[#E11D48]">
             <Link to={"/uz"}>Bosh sahifa</Link>
             <li className="list-disc">Barcha Kurslar</li>
         </ul>
