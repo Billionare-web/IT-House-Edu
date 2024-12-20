@@ -22,16 +22,16 @@ function Card() {
             </h4>
           </div>
           <div className="flex">
-            <Link to={"/uz/courses"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz/courses"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1">
               Hammasi
             </Link>
-            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1">
               Eng yangi
             </Link>
-            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1">
               Eng past narx
             </Link>
-            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1 text-foreground">
+            <Link to={"/uz"} className="bg-secondary px-4 py-2 rounded-3xl font-semibold ml-1">
               Eng yuqori narx
             </Link>
           </div>

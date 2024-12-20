@@ -2,6 +2,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { SlLocationPin } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import { Separator } from "@radix-ui/react-dropdown-menu";
 
 function Footer() {
   return (
@@ -30,7 +31,7 @@ function Footer() {
         </div>
         </div>
         </div>
-        <hr className='text-gray-300 my-10 w-ful h-1' />
+        <Separator className="mt-10 mb-5 h-[1px] w-full bg-zinc-700" />
         <h1 className='font-semibold'>© 2024. Barcha huquqlar himoyalangan</h1>
     </div>
   )
