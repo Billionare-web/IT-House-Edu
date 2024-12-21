@@ -4,11 +4,18 @@ import InteryerDizayn from "../../../imgs/InteryerDizayn.png";
 import KompyuterSavodxonligi from "../../../imgs/kompyuter savodxonligi.png";
 import WebDasturlash from "../../../imgs/web dasturlash.png";
 import English from "../../../imgs/Engish.png";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import Header from "../header";
+import Footer from "../footer";
 
 function Treyding() {
   return (
     <div className="">
+      <Header />
       <div className="container px-14 pt-32">
         <h1 className="mb-8 font-roboto text-3xl font-semibold">
           Treyding Kursi :
@@ -32,23 +39,28 @@ function Treyding() {
                 <b className="text-xl font-medium text-green-600 grayscale  group-hover:grayscale-0">
                   “Nur invest”
                 </b>{" "}
-                - bu halol aksiyalar bilan savdo qiluvchi <br />treyding kompaniyasi
-                va treyding bo’yicha ta’lim beruvchi kompaniya xisoblanadi. Biz
-                savdoni{" "}
+                - bu halol aksiyalar bilan savdo qiluvchi <br />
+                treyding kompaniyasi va treyding bo’yicha ta’lim beruvchi
+                kompaniya xisoblanadi. Biz savdoni{" "}
                 <span className="font-bold text-green-600 grayscale  group-hover:grayscale-0">
                   {" "}
                   Islom{" "}
                 </span>
-                moliyasiga <br />asoslangan xolda olib boramiz, ish jarayonimizdagi
-                barcha <br />harakatlar “Islom taraqqiyot banki qoshida ochilgan
-                AAOIFI <br />shariatlar standarti” asosida olib boriladi. Bundan
-                tashqari<br />{" "}
+                moliyasiga <br />
+                asoslangan xolda olib boramiz, ish jarayonimizdagi barcha <br />
+                harakatlar “Islom taraqqiyot banki qoshida ochilgan AAOIFI{" "}
+                <br />
+                shariatlar standarti” asosida olib boriladi. Bundan tashqari
+                <br />{" "}
                 <b className="text-green-600 grayscale  group-hover:grayscale-0">
                   “Nur invest”
                 </b>{" "}
-                kompaniyasi “Halol aksiyalar savdosiga <br />asoslangan treyding”
-                bo’yicha insonlarga ta’lim berish bilan <br />shug’ullanadi, ta’lim
-                formati onlayn va oflayn tarzda olib <br />boriladi.
+                kompaniyasi “Halol aksiyalar savdosiga <br />
+                asoslangan treyding” bo’yicha insonlarga ta’lim berish bilan{" "}
+                <br />
+                shug’ullanadi, ta’lim formati onlayn va oflayn tarzda olib{" "}
+                <br />
+                boriladi.
               </p>
               <a href="tel: +998917882121">
                 <button className="text-white items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-9 rounded-md px-3 mt-2 flex gap-4 bg-green-500 text-lg grayscale hover:animate-pulse hover:bg-green-700 group-hover:grayscale-0">
@@ -76,117 +88,132 @@ function Treyding() {
       </div>
       <hr className="mx-6 mt-12" />
       <h1 className="px-6 mt-5 text-3xl font-semibold">Sizga Yoqishi mumkin</h1>
-<Carousel className="mt-5 px-5">
-  <CarouselContent>
-    <CarouselItem className="basis-1/3">
-      <div className="border-2 rounded-2xl">
-            <img className="relative w-full h-72 -top-1" src={InteryerDizayn} alt="" />
-            <h1 className="font-bold text-2xl px-3 mr-20 py-1">Interyer va Eksteryer dizayn</h1>
-            <hr className="my-3 mx-3" />
-            <div className="flex justify-end pb-5">
-              <h1 className="text-gray-500 text-xs font-semibold">
-                <s>
-                  2,500,000 so'm
-                </s>
+      <Carousel className="mt-5 px-5">
+        <CarouselContent>
+          <CarouselItem className="basis-1/3">
+            <div className="border-2 rounded-2xl">
+              <img
+                className="relative w-full h-72 -top-1"
+                src={InteryerDizayn}
+                alt=""
+              />
+              <h1 className="font-bold text-2xl px-3 mr-20 py-1">
+                Interyer va Eksteryer dizayn
               </h1>
-              <h1 className="font-semibold px-3">
-                1,750,000 so'm
-              </h1>
+              <hr className="my-3 mx-3" />
+              <div className="flex justify-end pb-5">
+                <h1 className="text-gray-500 text-xs font-semibold">
+                  <s>2,500,000 so'm</s>
+                </h1>
+                <h1 className="font-semibold px-3">1,750,000 so'm</h1>
+              </div>
             </div>
-      </div>
-    </CarouselItem>
-    <CarouselItem className="basis-1/3">
-    <div className="border-2 rounded-2xl">
-            <img className="relative w-full h-72 -top-1" src={Phyton} alt="" />
-            <h1 className="font-bold text-3xl px-3">Phyton</h1>
-            <hr className="my-3 mx-3" />
-            <div className="flex justify-between">
-              <h1 className="font-semibold px-3 pt-1 pb-5">
-                Django, Postgresql, Django rest...
-              </h1>
-              <h1 className="text-gray-500 text-xs font-semibold">
-                <s>
-                  1,200,000
+          </CarouselItem>
+          <CarouselItem className="basis-1/3">
+            <div className="border-2 rounded-2xl">
+              <img
+                className="relative w-full h-72 -top-1"
+                src={Phyton}
+                alt=""
+              />
+              <h1 className="font-bold text-3xl px-3">Phyton</h1>
+              <hr className="my-3 mx-3" />
+              <div className="flex justify-between">
+                <h1 className="font-semibold px-3 pt-1 pb-5">
+                  Django, Postgresql, Django rest...
+                </h1>
+                <h1 className="text-gray-500 text-xs font-semibold">
+                  <s>
+                    1,200,000
+                    <br />
+                    so'm
+                  </s>
+                </h1>
+                <h1 className="font-semibold px-3">
+                  1,000,000
                   <br />
                   so'm
-                </s>
+                </h1>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem className="basis-1/3">
+            <div className="border-2 rounded-2xl">
+              <img className="w-full h-72" src={MsOffice} alt="" />
+              <h1 className="font-bold text-3xl mx-2">Office dasturlari</h1>
+              <hr className="my-3 mx-3" />
+              <div className="flex justify-between">
+                <h1 className="font-semibold mx-3 pt-1 pb-5">
+                  Ms Word, Ms Exsel...
+                </h1>
+                <div className="flex">
+                  <h1 className="text-gray-500 text-xs font-semibold">
+                    <s>1,200,000 so'm</s>
+                  </h1>
+                  <h1 className="font-semibold mx-3">1,000,000 so'm</h1>
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem className="basis-1/3">
+            <div className="border-2 rounded-2xl">
+              <img className="w-full h-72" src={KompyuterSavodxonligi} alt="" />
+              <h1 className="font-bold text-3xl mx-2">
+                Kompyuter savodxonligi
               </h1>
-              <h1 className="font-semibold px-3">
-                1,000,000
-                <br />
-                so'm
-              </h1>
-            </div>
-    </div>
-    </CarouselItem>
-    <CarouselItem className="basis-1/3">
-    <div className="border-2 rounded-2xl">
-            <img className="w-full h-72" src={MsOffice} alt="" />
-            <h1 className="font-bold text-3xl mx-2">Office dasturlari</h1>
-            <hr className="my-3 mx-3" />
-            <div className="flex justify-between">
-              <h1 className="font-semibold mx-3 pt-1 pb-5">
-                Ms Word, Ms Exsel...
-              </h1>
-              <div className="flex">
-                <h1 className="text-gray-500 text-xs font-semibold">
-                  <s>1,200,000 so'm</s>
+              <hr className="my-3 mx-3" />
+              <div className="flex justify-between">
+                <h1 className="font-semibold mx-3 pt-1 pb-5">
+                  Kompyuterni anglaymiz
                 </h1>
-                <h1 className="font-semibold mx-3">1,000,000 so'm</h1>
+                <div className="flex gap-2">
+                  <h1 className="text-gray-500 text-xs font-semibold">
+                    <s>0 so'm</s>
+                  </h1>
+                  <h1 className="font-semibold mx-3">500,000 so'm</h1>
+                </div>
               </div>
             </div>
-          </div>
-    </CarouselItem>
-    <CarouselItem className="basis-1/3">
-    <div className="border-2 rounded-2xl">
-            <img className="w-full h-72" src={KompyuterSavodxonligi} alt="" />
-            <h1 className="font-bold text-3xl mx-2">Kompyuter savodxonligi</h1>
-            <hr className="my-3 mx-3" />
-            <div className="flex justify-between">
-              <h1 className="font-semibold mx-3 pt-1 pb-5">Kompyuterni anglaymiz</h1>
-              <div className="flex gap-2">
-                <h1 className="text-gray-500 text-xs font-semibold">
-                  <s>0 so'm</s>
+          </CarouselItem>
+          <CarouselItem className="basis-1/3">
+            <div className="border-2 rounded-2xl">
+              <img className="w-full h-72" src={English} alt="" />
+              <h1 className="font-bold text-3xl mx-2">English & IT</h1>
+              <hr className="my-3 mx-3" />
+              <div className="flex justify-between">
+                <h1 className="font-semibold mx-3 pt-1 pb-5">
+                  Grammar & Speaking
                 </h1>
-                <h1 className="font-semibold mx-3">500,000 so'm</h1>
+                <div className="flex gap-2">
+                  <h1 className="text-gray-500 text-xs font-semibold">
+                    <s>0 so'm</s>
+                  </h1>
+                  <h1 className="font-semibold mx-3 my-2">0 so'm</h1>
+                </div>
               </div>
             </div>
-          </div>
-    </CarouselItem>
-    <CarouselItem className="basis-1/3">
-    <div className="border-2 rounded-2xl">
-            <img className="w-full h-72" src={English} alt="" />
-            <h1 className="font-bold text-3xl mx-2">English & IT</h1>
-            <hr className="my-3 mx-3" />
-            <div className="flex justify-between">
-              <h1 className="font-semibold mx-3 pt-1 pb-5">Grammar & Speaking</h1>
-              <div className="flex gap-2">
-                <h1 className="text-gray-500 text-xs font-semibold">
-                  <s>0 so'm</s>
+          </CarouselItem>
+          <CarouselItem className="basis-1/3">
+            <div className="border-2 rounded-2xl">
+              <img className="w-full h-72" src={WebDasturlash} alt="" />
+              <h1 className="font-bold text-3xl mx-2">Web Dasturlash</h1>
+              <hr className="my-3 mx-3" />
+              <div className="flex justify-between">
+                <h1 className="font-semibold mx-3 pt-1 pb-5">
+                  Frontend (React JS)
                 </h1>
-                <h1 className="font-semibold mx-3 my-2">0 so'm</h1>
+                <div className="flex gap-2">
+                  <h1 className="text-gray-500 text-xs font-semibold">
+                    <s>3,000,000 so'm</s>
+                  </h1>
+                  <h1 className="font-semibold mx-3 my-2">2,500,000 so'm</h1>
+                </div>
               </div>
             </div>
-          </div>
-    </CarouselItem>
-    <CarouselItem className="basis-1/3">
-    <div className="border-2 rounded-2xl">
-            <img className="w-full h-72" src={WebDasturlash} alt="" />
-            <h1 className="font-bold text-3xl mx-2">Web Dasturlash</h1>
-            <hr className="my-3 mx-3" />
-            <div className="flex justify-between">
-              <h1 className="font-semibold mx-3 pt-1 pb-5">Frontend (React JS)</h1>
-              <div className="flex gap-2">
-                <h1 className="text-gray-500 text-xs font-semibold">
-                  <s>3,000,000 so'm</s>
-                </h1>
-                <h1 className="font-semibold mx-3 my-2">2,500,000 so'm</h1>
-              </div>
-            </div>
-          </div>
-    </CarouselItem>
-  </CarouselContent>
-</Carousel>
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
+      <Footer />
     </div>
   );
 }

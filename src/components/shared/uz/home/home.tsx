@@ -1,17 +1,21 @@
-import BigImg from "./bigImg"
-import Card from "./card"
-import Hamkorlar from "./hamkorlar"
-import Platform from "./platform"
+import BigImg from "./bigImg";
+import Card from "./card";
+import Hamkorlar from "./hamkorlar";
+import Platform from "./platform";
+import Header from "../header";
+import Footer from "../footer";
 
 function Home() {
   return (
     <div>
-        <BigImg />
-        <Hamkorlar />
-        <Card />
-        <Platform />
+      <Header />
+      <BigImg />
+      <Hamkorlar />
+      <Card />
+      <Platform />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
