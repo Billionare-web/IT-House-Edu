@@ -6,6 +6,7 @@ import Istaklar from "./istaklar";
 import Carta from "./carta";
 import Izoh from "./izoh";
 import Bildirishnoma from "./bildirishnoma";
+import Sozlamalar from "./sozlamalar";
 
 function Profile() {
   return (
@@ -19,6 +20,7 @@ function Profile() {
           <Route path="/uz/profile/credit-cards" element={<Carta />} />
           <Route path="/uz/profile/reviews" element={<Izoh />} />
           <Route path="/uz/profile/notifications" element={<Bildirishnoma />} />
+          <Route path="/uz/profile/settings" element={<Sozlamalar />} />
         </Routes>
       </div>
     </div>

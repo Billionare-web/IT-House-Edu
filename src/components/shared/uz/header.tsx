@@ -11,6 +11,12 @@ import America from "../../imgs/america.png";
 import Uzbekistan from "../../imgs/Uzbekistan.png";
 import Russia from "../../imgs/Russia.png";
 import Turkiya from "../../imgs/Turkiya.png";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
 
 function Header() {
   return (
@@ -116,9 +122,7 @@ function Header() {
             </DropdownMenuContent>
           </DropdownMenu>
           <Link
-            to={
-              "/uz/signin"
-            }
+            to={"/uz/signin"}
             aria-label="notification-btn"
             className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground size-10 relative"
           >
@@ -168,12 +172,16 @@ function Header() {
             role="none"
             className="shrink-0 bg-border h-10 w-[1px] my-3"
           ></div>
-          <Link
-            to={"/uz/signin"}
-            className="bg-[#E11D48] text-white py-3 px-9 rounded-3xl"
-          >
-            Kirish
-          </Link>
+          <header className="ml-500">
+            <button className="items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-full hidden md:flex text-white bg-red-600">
+            <SignedOut>
+              <SignInButton />
+            </SignedOut>
+            </button>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+          </header>
         </div>
       </div>
     </div>
