@@ -8,6 +8,7 @@ import Izoh from "./izoh";
 import Bildirishnoma from "./bildirishnoma";
 import Sozlamalar from "./sozlamalar";
 
+
 function Profile() {
   return (
     <div>
