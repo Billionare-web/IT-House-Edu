@@ -7,13 +7,13 @@ import { Separator } from "@radix-ui/react-dropdown-menu";
 function Footer() {
   return (
     <div className="bg-secondary mt-28 py-10 px-14">
-      <div className="flex gap-20 max-[380px]:flex-col">
+      <div className="flex gap-20 max-sm:flex-col">
         <h1 className="font-semibold">
           IT sohasidagi barcha sifatli kurslar. Biz bilan IT sohasini o'rganish
           endi yanada <br />
           osonroq shunchaki boshlang.
         </h1>
-        <div className="flex gap-20 max-[380px]:flex-col">
+        <div className="flex gap-20 max-sm:flex-col">
           <div className="column">
             <h1 className="font-semibold text-3xl">Sahifalar</h1>
             <ul className="mt-7 font-semibold leading-8">
@@ -54,7 +54,6 @@ function Footer() {
           <div className="column">
             <h1 className="font-semibold text-3xl">Aloqa</h1>
             <ul className="mt-7 font-semibold leading-8">
-              {/* <li className='flex gap-3 items-center'><FiPhoneCall className='text-xl' /> +998900352727</li> */}
               <li>
                 <a
                   className="flex gap-3 items-center text-sm hover:text-blue-500 hover:underline dark:hover:text-blue-300"

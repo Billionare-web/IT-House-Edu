@@ -1,12 +1,12 @@
 import Page1 from './page1';
 import Page2 from './page2';
-import Header from "../header";
 import Footer from '../footer';
+import Responsive from '../responsive';
 
 function Kurslar() {
   return (
     <div>
-      <Header />
+      <Responsive />
       <Page1 />
       <Page2 />
       <Footer />

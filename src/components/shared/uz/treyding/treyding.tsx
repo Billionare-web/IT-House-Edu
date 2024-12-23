@@ -9,13 +9,13 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import Header from "../header";
 import Footer from "../footer";
+import Responsive from "../responsive";
 
 function Treyding() {
   return (
     <div className="">
-      <Header />
+      <Responsive />
       <div className="container px-14 pt-32">
         <h1 className="mb-8 font-roboto text-3xl font-semibold">
           Treyding Kursi :

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import ShoppingCart from "../../../imgs/shopping.png";
-import Header from "../header";
 import Footer from "../footer";
+import Responsive from "../responsive";
 
 function Shopping() {
   return (
     <div>
-      <Header />
+      <Responsive />
       <ul className="flex gap-8 px-32 py-3 mt-20 h-12 bg-gradient-to-r from-secondary to-primary">
         <Link
           className="opacity-80 transition-opacity hover:opacity-95"

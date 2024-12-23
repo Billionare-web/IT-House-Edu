@@ -4,13 +4,13 @@ import { FaRegEnvelope } from "react-icons/fa";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { IoPaperPlaneOutline } from "react-icons/io5";
-import Header from "../header";
 import Footer from "../footer";
+import Responsive from "../responsive";
 
 function Contact() {
   return (
     <div>
-      <Header />
+      <Responsive />
       <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary bg-[#E11D48] h-15 mt-20">
         <Link to={"/uz"}>Bosh sahifa</Link>
         <li className="list-disc">Aloqa</li>

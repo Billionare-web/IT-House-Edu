@@ -2,13 +2,13 @@ import BigImg from "./bigImg";
 import Card from "./card";
 import Hamkorlar from "./hamkorlar";
 import Platform from "./platform";
-import Header from "../header";
 import Footer from "../footer";
+import Responsive from "../responsive";
 
 function Home() {
   return (
     <div>
-      <Header />
+      <Responsive />
       <BigImg />
       <Hamkorlar />
       <Card />
