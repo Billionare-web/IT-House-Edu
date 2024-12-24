@@ -17,11 +17,11 @@ function Header() {
     <div className="flex gap-2 items-center px-5 z-10 justify-between border-b py-3">
       <Link to={"/uz"} className="flex items-center gap-2">
         <img
-          className="w-[50px]"
+          className="w-[50px] max-sm:w-7"
           src="https://ithouseonline.uz/logo.svg"
           alt="ithouseonline.uz/logo.svg"
         />
-        <h1 className="font-bold text-[27px] text-foreground">IT HOUSE</h1>
+        <h1 className="font-bold text-[27px] text-foreground max-sm:text-lg">IT HOUSE</h1>
       </Link>
       <div className="flex items-center gap-8 pr-12">
       <DropdownMenu>

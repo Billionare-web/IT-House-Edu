@@ -5,13 +5,13 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import Footer from "../footer";
-import Responsive from "../responsive";
+import Header from "../header";
 
 function Contact() {
   return (
     <div>
-      <Responsive />
-      <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary bg-[#E11D48] h-15 mt-20">
+      <Header />
+      <ul className="flex py-3 px-32 gap-8 bg-gradient-to-r from-secondary bg-[#E11D48] h-15 mt-20 max-sm:px-7">
         <Link to={"/uz"}>Bosh sahifa</Link>
         <li className="list-disc">Aloqa</li>
       </ul>
@@ -22,7 +22,7 @@ function Contact() {
         height="450"
         loading="lazy"
       ></iframe>
-      <div className="flex justify-between mt-5 px-32">
+      <div className="flex gap-20 mt-5 px-32 max-sm:px-7 max-sm:flex-col">
         <div>
           <h1 className="font-bold text-4xl">Biz bilan aloqa oling</h1>
           <h1 className="mt-2">
@@ -46,7 +46,7 @@ function Contact() {
         <div>
           <h1 className="font-bold text-4xl">Aloqa formasi</h1>
           <Input
-            className="pb-24 pt-5 font-semibold pr-96 mt-3 rounded-xl"
+            className="pb-24 pt-5 font-semibold pr-72 mt-3 rounded-xl max-sm:pr-0"
             placeholder="Savol yoki Salom deb ayting"
           />
           <Input

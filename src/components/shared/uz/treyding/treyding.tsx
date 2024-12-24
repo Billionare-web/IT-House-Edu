@@ -8,20 +8,22 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Footer from "../footer";
-import Responsive from "../responsive";
+import Header from "../header";
 
 function Treyding() {
   return (
     <div className="">
-      <Responsive />
-      <div className="container px-14 pt-32">
+      <Header />
+      <div className="container px-14 pt-32 max-sm:px-7">
         <h1 className="mb-8 font-roboto text-3xl font-semibold">
           Treyding Kursi :
         </h1>
         <div>
-          <div className=" group grid grid-cols-2 gap-4">
+          <div className="group grid grid-cols-2 gap-4">
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm group flex flex-col items-center justify-center shadow-green-500 group-hover:shadow-2xl">
               <img
                 alt="nurinvest"
@@ -34,7 +36,7 @@ function Treyding() {
                 src={"https://ithouseonline.uz/assets/brands/nurinvest.svg"}
               />
             </div>
-            <div className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-xl p-12 shadow-green-500 group-hover:shadow-2xl">
+            <div className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-xl p-12 shadow-green-500 group-hover:shadow-2xl max-sm:px-1 max-sm:py-3">
               <p className="font-space-grotesk">
                 <b className="text-xl font-medium text-green-600 grayscale  group-hover:grayscale-0">
                   “Nur invest”
@@ -63,7 +65,7 @@ function Treyding() {
                 boriladi.
               </p>
               <a href="tel: +998917882121">
-                <button className="text-white items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-9 rounded-md px-3 mt-2 flex gap-4 bg-green-500 text-lg grayscale hover:animate-pulse hover:bg-green-700 group-hover:grayscale-0">
+                <button className="text-white items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-9 rounded-md px-3 mt-2 flex gap-4 bg-green-500 text-lg grayscale hover:animate-pulse hover:bg-green-700 group-hover:grayscale-0 max-sm:text-xs">
                   <span>Malumot olish</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,9 +89,10 @@ function Treyding() {
         </div>
       </div>
       <hr className="mx-6 mt-12" />
-      <h1 className="px-6 mt-5 text-3xl font-semibold">Sizga Yoqishi mumkin</h1>
-      <Carousel className="mt-5 px-5">
-        <CarouselContent>
+      <h1 className="px-6 mt-5 text-3xl font-semibold max-sm:text-lg">Sizga Yoqishi mumkin</h1>
+      <div className="px-14 max-sm:px-5">
+      <Carousel className="mt-5 px-2">
+        <CarouselContent className="max-sm:flex-col max-sm:gap-5">
           <CarouselItem className="basis-1/3">
             <div className="border-2 rounded-2xl">
               <img
@@ -212,7 +215,10 @@ function Treyding() {
             </div>
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious className="max-sm:hidden" />
+        <CarouselNext className="max-sm:hidden" />
       </Carousel>
+      </div>
       <Footer />
     </div>
   );

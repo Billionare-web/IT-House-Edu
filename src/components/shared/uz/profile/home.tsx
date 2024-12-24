@@ -151,6 +151,26 @@ function Boshqaruv() {
             <span className="max-md:hidden">Sozlamalar</span>
           </button>
         </a>
+        <button className="mt-3 items-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-destructive text-destructive-foreground hover:bg-destructive/90 h-10 px-4 py-2 flex w-full justify-start gap-2 max-sm:w-fit sm:hidden">
+          <a href="/uz">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="lucide lucide-log-out size-5 text-muted-foreground"
+            >
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+              <polyline points="16 17 21 12 16 7"></polyline>
+              <line x1="21" x2="9" y1="12" y2="12"></line>
+            </svg>
+          </a>
+        </button>
       </div>
       <div className="my-3 mx-5 w-full rounded-md bg-secondary px-4 pb-4">
         <div className="pt-4">

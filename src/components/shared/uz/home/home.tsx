@@ -3,12 +3,12 @@ import Card from "./card";
 import Hamkorlar from "./hamkorlar";
 import Platform from "./platform";
 import Footer from "../footer";
-import Responsive from "../responsive";
+import Header from "../header";
 
 function Home() {
   return (
     <div>
-      <Responsive />
+      <Header />
       <BigImg />
       <Hamkorlar />
       <Card />

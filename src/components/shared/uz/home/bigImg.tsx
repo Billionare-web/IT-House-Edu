@@ -4,7 +4,7 @@ import BigImg2 from "../../../imgs/hero.png"
 function BigImg() {
   return (
     <div>
-    <div className="flex sm:px-32 mt-[150px] max-sm:text-center">
+    <div className="flex sm:px-32 mt-5 max-sm:text-center">
       <div className="flex justify-between gap-10 max-sm:flex max-sm:flex-col">
         <div className="flex-col">
           <h1 className='text-5xl font-bold max-sm:font-space-grotesk max-sm:text-2xl'>Kelajak kasblarini o`rganishni hoziroq <span className='text-blue-600'>biz bilan boshlang.</span></h1>
